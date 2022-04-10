@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto', 'Raleway',  sans-serif;
-    background-color: #E5E5E5;
+    background-color: #E5E5E5; 
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #757575;;
 }
 .list{
 list-style: none;
@@ -33,15 +36,6 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-.main-btn{
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121; 
-}
 .btn-style:hover {
 color: #212121;
 background-color: #2196F3;
