@@ -23,10 +23,13 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
+text-decoration: none;
+
 }
 .header-item:hover{
 color: #2196F3;
 }
+
 
 .header-contact{
 font-weight: 500;
@@ -36,7 +39,14 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-.btn-style:hover {
+.header-contact:hover,
+.header-contact:focus{
+    color: #2196F3;
+
+}
+
+.btn-style:hover,
+.btn-style:focus {
 color: #212121;
 background-color: #2196F3;
 }
@@ -90,4 +100,9 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus{
+    color: #2196F3;
 }
