@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', 'Raleway',  sans-serif;
     background-color: #E5E5E5; 
+    font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: #757575;;
@@ -10,68 +11,71 @@ list-style: none;
 }
 
 .header-name{
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
 }
 
 .header-item{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121;
-text-decoration: none;
-
-}
-.header-item:hover{
-color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
 }
 
+.header-item:hover,
+.header-item:focus{
+    color: #2196F3;
+}
 
 .header-contact{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 .header-contact:hover,
 .header-contact:focus{
     color: #2196F3;
+}
 
+.btn-style{
+    cursor: pointer;
 }
 
 .btn-style:hover,
 .btn-style:focus {
-color: #212121;
-background-color: #2196F3;
+    color: #212121;
+    background-color: #2196F3;
 }
 
 .section-link{
-width: 370px;
-height: 294px;
-left: 215px;
-top: 262px;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 262px;
 }
 
 .section-header{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 
 .section-text{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: #757575;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .footer{
@@ -84,10 +88,10 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
+text-decoration: none;
 }
 
 .footer-text{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -95,7 +99,6 @@ color: #FFFFFF;
 }
 
 .footer-contact{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
